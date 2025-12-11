@@ -14,6 +14,10 @@ Add, remove, filter, and save your shopping items using the browser’s **LocalS
   <img src="images/preview1.png" width="400" />
 </p>
 
+## 🌐 Live Demo
+👉 **Demo Link:**  
+https://deluxe-naiad-1ede83.netlify.app/
+
 ## 🚀 Features
 
 - ✔️ Add new items  
