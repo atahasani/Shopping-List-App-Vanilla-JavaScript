@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping list wtith Vanilla JS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img class="image" src="images/Shopping-list.png" />
+        <h1>Shopping list</h1>
+      </header>
+      <form>
+          <input class="form-item" type="text" placeholder="Enter item" />
+          <button id="add-btn" class="add-btn" type="submit">Add item</button>
+      </form>
+      <div class="boxes">
+        <input class="filter" type="text" placeholder="Filter items..." />
+      </div>
+      <ul class="ul-list">
+        <!-- <li class="item-list">Oranges <button class="remove-btn"><i class="fa-solid fa-xmark"></i></button> </li>
+        <li class="item-list">Ice creame <button class="remove-btn"><i class="fa-solid fa-xmark"></i></button></li>
+        <li class="item-list">Apples <button class="remove-btn"><i class="fa-solid fa-xmark"></i></button></li> -->
+    </ul>
+    <button class="clear-btn">
+        Clear All
+    </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

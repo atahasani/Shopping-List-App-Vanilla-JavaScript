@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  padding: 0;
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 60px;
+  margin-right: 10px;
+}
+.boxes {
+  width: 100%;
+}
+
+.form-item {
+  margin: 0;
+  padding: 10px;
+  font-size: 0.7em;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.add-btn {
+  border: none;
+  width: 80px;
+  height: 25px;
+  margin-top: 10px;
+  background-color: limegreen;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.filter {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #333;
+  padding: 10px;
+  font-size: 0.7em;
+  width: 100%;
+  text-align: center;
+}
+
+.ul-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  width: 100%;
+}
+
+.item-list {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  padding: 5px;
+  font-size: 0.9em;
+  border-radius: 5px;
+}
+
+.remove-btn {
+  background-color: transparent;
+  border: none;
+  color: red;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.clear-btn {
+  padding: 5px;
+  font-size: 0.7em;
+  width: 100%;
+  text-align: center;
+  border: none;
+  padding: 10px;
+  font-size: 0.9em;
+  cursor: pointer;
+}
