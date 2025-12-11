@@ -10,8 +10,8 @@ Add, remove, filter, and save your shopping items using the browser’s **LocalS
 ## 📸 Screenshot
 
 <p float="left">
-  <img src="images/preview.png" width="300" />
-  <img src="images/preview1.png" width="300" />
+  <img src="images/preview.png" width="400" style="margin-right: 20px;"/>
+  <img src="images/preview1.png" width="400" />
 </p>
 
 ## 🚀 Features
